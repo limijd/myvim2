@@ -1,0 +1,33 @@
+[submodule "dot.vim/bundle/minibufexpl"]
+	path = dot.vim/bundle/minibufexpl
+	url = https://github.com/fholgado/minibufexpl.vim.git
+[submodule "dot.vim/bundle/snippets"]
+	path = dot.vim/bundle/snippets
+	url = https://github.com/honza/vim-snippets.git
+[submodule "dot.vim/bundle/ultisnips"]
+	path = dot.vim/bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule "dot.vim/bundle/gundo"]
+	path = dot.vim/bundle/gundo
+	url = https://github.com/sjl/gundo.vim.git
+[submodule "dot.vim/bundle/pyflakes-pathogen"]
+	path = dot.vim/bundle/pyflakes-pathogen
+	url = https://github.com/mitechie/pyflakes-pathogen.git
+[submodule "dot.vim/bundle/pep8"]
+	path = dot.vim/bundle/pep8
+	url = https://github.com/vim-scripts/pep8.git
+[submodule "dot.vim/bundle/supertab"]
+	path = dot.vim/bundle/supertab
+	url = https://github.com/ervandew/supertab.git
+[submodule "dot.vim/bundle/nerdtree"]
+	path = dot.vim/bundle/nerdtree
+	url = https://github.com/vim-scripts/The-NERD-tree.git
+[submodule "dot.vim/bundle/vim-autoswap"]
+	path = dot.vim/bundle/vim-autoswap
+	url = https://github.com/gioele/vim-autoswap
+[submodule "dot.vim/bundle/vim-SystemVerilog"]
+	path = dot.vim/bundle/vim-SystemVerilog
+	url = https://github.com/WeiChungWu/vim-SystemVerilog.git
+[submodule "dot.vim/bundle/vimwiki"]
+	path = dot.vim/bundle/vimwiki
+	url = https://github.com/vimwiki/vimwiki.git
