@@ -175,6 +175,7 @@
 
     "show all my mapped keys and commands
     command    MyKeys           :!grep -e '^\s\+map ' -e '^map ' -e '^\s\+command ' % |sort
+    command    CsLoad           :cs add cscope.out
 
 "}}}
 
