@@ -190,7 +190,7 @@
 "local specific config {{{
     let local_vimrc = expand("~/.vimrc.local")
     if filereadable(local_vimrc)
-        echo "Loading local VIM settings: ".local_vimrc
+        silent echo "Loading local VIM settings: ".local_vimrc
         exec "source ".local_vimrc
     endif
 "}}}

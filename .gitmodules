@@ -31,3 +31,6 @@
 [submodule "dot.vim/bundle/vimwiki"]
 	path = dot.vim/bundle/vimwiki
 	url = https://github.com/vimwiki/vimwiki.git
+[submodule "dot.vim/bundle/genutils"]
+	path = dot.vim/bundle/genutils
+	url = https://github.com/vim-scripts/genutils.git
