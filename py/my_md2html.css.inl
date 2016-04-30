@@ -35,13 +35,18 @@ div#TOC, nav#TOC
         }
     }
 
+html * {
+    font-family: Georgia, "Times New Roman",  "Microsoft YaHei", "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif; /* Sans-serif headers */
+}
+
 /* ---- Headers and sections ---- */
+body{
+    font-family: Georgia, "Times New Roman",  "Microsoft YaHei", "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif; /* Sans-serif headers */
+}
 
 h1, h2, h3, h4, h5, h6
 {
-    font-family: "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif; /* Sans-serif headers */
-
-    /* font-family: "Liberation Serif", "Georgia", "Times New Roman", serif; /* Serif headers */
+    font-family: Georgia, "Times New Roman",  "Microsoft YaHei", "Helvetica Neue", Helvetica, "Liberation Sans", Calibri, Arial, sans-serif; /* Sans-serif headers */
 
     page-break-after: avoid; /* Firefox, Chrome, and Safari do not support the property value "avoid" */
 }
