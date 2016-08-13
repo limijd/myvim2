@@ -186,6 +186,7 @@ let username = substitute(system('whoami'), '\n', '', '')
     "show all my mapped keys and commands
     command    MyKeys           :!grep -e '^\s\+map ' -e '^map ' -e '^\s\+command ' % |sort
     command    CsLoad           :cs add cscope.out
+    command    PKM              :e ~/dev-sandbox/wli.pkm/
 
 "}}}
 
@@ -195,6 +196,12 @@ let username = substitute(system('whoami'), '\n', '', '')
     set nocompatible
     filetype plugin on
     syntax on
+
+    if username == "limijd"
+        let g:vimwiki_list = [
+             \{'path': '~/dev-sandbox/wli.pkm/', 'pkm':'index', 'path_html': '/tmp', 'syntax':'markdown', 'ext':'.md'}
+             \]
+    endif
 
 "}}}
 
