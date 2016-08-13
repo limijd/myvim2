@@ -2,6 +2,9 @@
 " limijd@gmail.com
 " Aug. 2015
 
+let hostname = substitute(system('hostname'), '\n', '', '')
+let username = substitute(system('whoami'), '\n', '', '')
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 "Pathogen {{{
@@ -9,6 +12,13 @@
 "https://github.com/tpope/vim-pathogen
 
     syntax off
+    let g:pathogen_disabled = []
+
+    "selectively disable some plugin
+    if username == "limijd"
+        call add(g:pathogen_disabled, 'perforce')
+    endif
+
     execute pathogen#infect()
     "Load Help docs in each bundle/<submodule>/
     execute pathogen#helptags()
